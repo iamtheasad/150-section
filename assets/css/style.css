@@ -1,0 +1,161 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #6a6a6a;
+    font-weight: 700;
+}
+
+p {
+    color: #999999;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+ul,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+:-moz-placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+::-moz-placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+:-ms-input-placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+::-ms-input-placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #999999;
+    font-weight: 500;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/* Contact Form Class-1 */
+.contact_form {
+    position: relative;
+}
+
+.section_bg {
+    position: absolute;
+    background-image: url(../images/austin-distel-2vCqH34PqWs-unsplash.jpg);
+    width: 58%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section_bg:after {
+    content: '';
+    background: #65CDBB;
+    opacity: .9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.contact {
+    padding: 150px 0px;
+}
+
+.contact h2 {
+    color: #ffffff;
+    position: absolute;
+    left: -6%;
+    top: 50%;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+.contact input, .contact textarea {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.contact input:focus, .contact textarea:focus {
+    border: 1px solid #333;
+}
+
+.contact_form ul li {
+   list-style: none;
+   color: #333;
+   line-height: 2.1;
+}
+
+.contact_form ul li span {
+   padding-right: 10px;
+  color: #65CDBB;
+}
+
+.contact_btn a.boxed_btn {
+   padding: 15px 10px;
+   font-size: 20px;
+   background-color: #65CDBB;
+   text-decoration: none;
+   color: #fff;
+   border-radius: 2px;
+   display: inline-block;
+
+}
+
+/* Contact Form Class-1 / */
+
+
