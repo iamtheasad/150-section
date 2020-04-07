@@ -94,7 +94,7 @@ a:focus {
 
 .section_bg {
     position: absolute;
-    background-image: url(../images/austin-distel-2vCqH34PqWs-unsplash.jpg);
+    background-image: url(../images/class_one_1.jpg.jpg);
     width: 58%;
     height: 100%;
     background-size: cover;
@@ -135,27 +135,99 @@ a:focus {
 }
 
 .contact_form ul li {
-   list-style: none;
-   color: #333;
-   line-height: 2.1;
+    list-style: none;
+    color: #333;
+    line-height: 2.1;
 }
 
 .contact_form ul li span {
-   padding-right: 10px;
-  color: #65CDBB;
+    padding-right: 10px;
+    color: #65CDBB;
 }
 
 .contact_btn a.boxed_btn {
-   padding: 15px 10px;
-   font-size: 20px;
-   background-color: #65CDBB;
-   text-decoration: none;
-   color: #fff;
-   border-radius: 2px;
-   display: inline-block;
+    padding: 15px 10px;
+    font-size: 20px;
+    background-color: #65CDBB;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
 
 }
 
-/* Contact Form Class-1 / */
+/* Contact Form Class-1 end */
+
+/* Contact Form Class-2 */
+.section_padding.zigzag_text_bg_2 {
+    overflow: hidden;
+}
+
+.section_padding {
+    background-position: center;
+    background-size: cover;
+}
+
+.zigzag_text_bg_1 {
+    background-image: url("../images/class_two_1.jpg");
+}
+
+.zigzag_text_bg_2 {
+    background-image: url("../images/class_two_2.jpg");
+}
+
+.zigzag_text {
+    position: relative;
+    z-index: 1;
+    padding-right: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.zigzag_text h2, .zigzag_text p {
+    color: #fff;
+}
+
+.zigzag_text p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.zigzag_text:after {
+    content: '';
+    position: absolute;
+    background: #3498db;
+    width: 5000%;
+    height: 100%;
+    top: 0;
+    left: -4900%;
+    z-index: -1;
+    transform: skew(10deg);
+    opacity: .9;
+}
+
+.boxed_btn {
+    color: #fff;
+    font-size: 20px;
+    background: #333;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.zigzag_text_bg_2 .zigzag_text:after {
+    left: -20%;
+    overflow: hidden;
+    transform: skew(-10deg);
+    background: #1abc9c;
+}
+
+.zigzag_text_bg_2 .zigzag_text {
+    padding-right: 0px;
+}
+
+
+/* Contact Form Class-2 end */
 
 
