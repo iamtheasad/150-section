@@ -291,3 +291,67 @@ ul.check_icon li span {
 /*end*/
 
 
+/* Charity Section Start */
+.section_title h2 {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.charity_section {
+    padding: 100px 0px;
+}
+
+.section_title p {
+    margin: 20px 0px;
+    font-size: 17px;
+}
+
+.section_title h2:after {
+    content: '';
+    position: absolute;
+    background: #7B6C79;
+    width: 60px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section_title h2:before {
+    content: '';
+    width: 30px;
+    height: 4px;
+    background: #80B4FB;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.charity_icon img {
+    height: 100px;
+    width: 100px;
+}
+
+.charity_icon {
+    height: 110px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #80B4FB;
+}
+
+.single_charity_icon h3 {
+    margin: 15px 0px;
+    font-size: 22px;
+}
+
+.single_charity_icon p {
+    font-size: 17px;
+}
+
+/* Charity Section End */
+
