@@ -94,7 +94,7 @@ a:focus {
 
 .section_bg {
     position: absolute;
-    background-image: url(../images/class_one_1.jpg.jpg);
+    background-image: url(../images/class_one_1.jpg);
     width: 58%;
     height: 100%;
     background-size: cover;
@@ -227,7 +227,67 @@ a:focus {
     padding-right: 0px;
 }
 
-
 /* Contact Form Class-2 end */
+
+/*start*/
+.video_area_bg {
+    background-image: url("../images/video_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #333333;
+}
+
+.video_area {
+    position: relative;
+}
+
+.video_area_bg {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+}
+
+a.video_play_btn {
+    position: absolute;
+    right: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #fff;
+    background: #2bbb9f;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.video_area p {
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+.video_wrap {
+    padding: 150px 0px;
+}
+
+ul.check_icon li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding-left: 40px;
+    position: relative;
+}
+
+ul.check_icon li span {
+    padding-right: 10px;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+
+/*end*/
 
 
