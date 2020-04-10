@@ -355,3 +355,69 @@ ul.check_icon li span {
 
 /* Charity Section End */
 
+/*Accordion Start*/
+.accordion_bg {
+    position: relative;
+    padding: 50px 0px;
+    min-height: 750px;
+}
+
+.accordion_bg:after {
+    content: '';
+    position: absolute;
+    background-image: url("../images/video_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 3px 3px #333;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.styled_faq .card-header {
+    border: none;
+    padding: 0px;
+}
+
+.styled_faq button.btn.btn-link {
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    color: #333;
+    padding: 20px;
+    position: relative;
+}
+
+.styled_faq .card {
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.styled_faq .accordion > .card:not(:first-of-type):not(:last-of-type),
+.styled_faq .accordion > .card:first-of-type {
+    border-bottom: 1px solid #ddd;
+}
+
+.styled_faq button.btn.btn-link span {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 15px;
+    display: none;
+}
+
+.styled_faq .card-header h2 button[aria-expanded="true"] span.angle_up {
+    display: block;
+}
+
+.styled_faq .card-header h2 button[aria-expanded="false"] span.angle_down {
+    display: block;
+}
+
+
+/*Accordion End*/
+
