@@ -421,3 +421,99 @@ ul.check_icon li span {
 
 /*Accordion End*/
 
+/* Pricing Section Start */
+.section_1 {
+    background-color: #e6e6e6;
+    padding: 100px 0px;
+}
+
+.single_pricing_box {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    transition: .2s;
+}
+
+.single_pricing_box:hover {
+    border-color: #238F59;
+}
+
+.single_pricing_box h3 {
+    font-size: 25px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.pricing_icon {
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+
+.pricing_icon img {
+    width: 62px;
+}
+
+.pricing_list {
+    margin-bottom: 30px;
+}
+
+.pricing_list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+a.borderd_btn {
+    display: inline-block;
+    border: 1px solid #80b4fb;
+    padding: 10px;
+    border-radius: 30px;
+    color: #333;
+    transition: .2s;
+}
+
+a.borderd_btn:hover {
+    color: #fff;
+    background: #238F59;
+}
+
+.pricing_list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 25px;
+}
+
+.pricing_list li {
+    line-height: 2;
+    transition: .2s;
+}
+
+.pricing_list ul li:hover {
+    padding-left: 5px;
+}
+
+.pricing_list ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f410';
+    padding-right: 10px;
+    color: #333;
+}
+
+.pricing_list ul li.off::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f410';
+    color: red;
+}
+
+.single_pricing_box:hover .pricing_icon {
+    color: #238F59;
+}
+
+/* Pricing Section End */
+
+
