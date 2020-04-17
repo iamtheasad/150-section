@@ -1,7 +1,7 @@
 (function iamStrict() {
     "use strict"; // Javascript Strict Method
 
-    jQuery(document).ready(function () {
+    $(document).ready(function () {
 
         $('.video_play_btn').magnificPopup({
             type: 'iframe',
@@ -37,6 +37,30 @@
                 },
 
                 srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+            }
+        });
+
+    //    User Section Owl Carousel
+        $('.staff_list').owlCarousel({
+            autoplay: true,
+            loop:true,
+            nav: true,
+            navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+            dots: false,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:false
+                }
             }
         });
 

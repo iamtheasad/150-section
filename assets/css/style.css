@@ -517,3 +517,41 @@ a.borderd_btn:hover {
 /* Pricing Section End */
 
 
+.single_staff_item img {
+    width: 160px !important;
+    border-radius: 50%;
+}
+
+.staff_meta {
+    margin-top: 40px;
+}
+
+.staff_meta h4 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.single_staff_item p {
+    color: #333;
+    font-family: monospace;
+}
+
+.staff_list.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav .owl-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.staff_list.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav button {
+    font-size: 25px;
+    color: #bedcf0;
+    background: #5e54ac;
+}
+
+.staff_list.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav .owl-prev {
+    top: 0%;
+    right: 5%;
+    position: absolute;
+}
+
