@@ -64,7 +64,27 @@
             }
         });
 
-    });
+        /* Happy Clients Start */
+        $('.client_testimonial_carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                }
+            }
+        });
+        /* Happy Clients End */
 
+    }); // Document Ready Function End
 })();
  

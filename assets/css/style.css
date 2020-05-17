@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 * {
     margin: 0px;
@@ -12,7 +12,7 @@ body {
     -webkit-box-sizing: border-box;
     color: #999999;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -761,4 +761,87 @@ a.insurance_btn:hover {
 }
 
 /*Insuracne End*/
+
+/*Client Happyness Start*/
+.client_section_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section_borders span {
+    width: 50px;
+    height: 4px;
+    background: #2980b9;
+    display: inline-block;
+}
+
+.section_borders span.black_border {
+    background: #34495e;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.client_section_title h2 {
+    font-size: 35px;
+}
+
+.happy_clients {
+    padding: 80px 0px;
+}
+
+.client_testimonial_carousel .owl-dots .owl-dot span {
+    width: 20px;
+    height: 4px;
+    background: #2980b9;
+    border-radius: 2px;
+    margin: 2px;
+    transition: .2s;
+}
+
+.client_testimonial_carousel .owl-dots .owl-dot.active span {
+    height: 4px;
+    background: #34495e;
+    width: 25px;
+}
+
+.client_testimonial_carousel .owl-dots .owl-dot:hover span {
+    background: #34495e;
+}
+
+.single_testimonial_item_9:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 100%;
+    font-size: 25px;
+    top: 0;
+}
+
+
+.items_9 {
+    border-left: 1px solid #333;
+    padding-left: 14px;
+    margin-left: 50px;
+}
+
+.single_testimonial_item_9 {
+    position: relative;
+    box-shadow: 0px 0px 2px #333;
+    margin: 5px;
+    padding: 15px;
+}
+
+.items_9 h3 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+}
+
+/*Client Happyness End*/
 
